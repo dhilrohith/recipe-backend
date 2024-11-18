@@ -9,7 +9,7 @@ mongoose.connect(process.env.MONGODB_URI)
         console.log("Connected to database");
 
     // listen for requests
-        app.listen(3001, () => {
+        app.listen(process.env.PORT, () => {
             console.log(`Server started @ http://localhost:3001`);
         });
     })

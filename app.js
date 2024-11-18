@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 
 // define the root route
-app.use("/api/v1/recipes",recipeRouter);
+app.use('/api/v1/recipes', recipeRouter);
 
 // export the app
 module.exports = app;
