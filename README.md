@@ -108,27 +108,27 @@ Install express using the command npm install express.
 ## Api End Points
 
 ### 1. Create Recipe
-- **URL**: `/api/recipes`
+- **URL**: `/api/v1/recipes`
 - **Method**: `POST`
 - **Description**: Creates a new recipe.
 
 ### 2. Get All Recipe
-- **URL**: `/api/recipes`
+- **URL**: `/api/v1/recipes`
 - **Method**: `GET`
 - **Description**: Gets all recipes.
 
 ### 3. Get All By ID
-- **URL**: `/api/recipes/id`
+- **URL**: `/api/v1/recipes/id`
 - **Method**: `GET`
 - **Description**: Gets recipes by id.
 
 ### 4. Update Recipe
-- **URL**: `/api/recipes/id`
+- **URL**: `/api/v1/recipes/id`
 - **Method**: `PUT`
 - **Description**: Update recipes by id.
 
 ### 5. Delete Recipe
-- **URL**: `/api/recipes/id`
+- **URL**: `/api/v1/recipes/id`
 - **Method**: `DELETE`
 - **Description**: Delete recipe by id.
 
